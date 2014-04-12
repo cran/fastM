@@ -10,19 +10,20 @@
 
 \arguments{
   \item{X}{numeric data matrix or dataframe. Missing values are not allowed.}
-  \item{location}{logical. If TRUE it will be estimated with respect to the mean and otherwise with respect to the origin.}
-  \item{eps}{convergence tolerance.}
+  \item{location}{logical or numeric. If FALSE, it is assumed that the scatter should be computed wrt to the origin. If TRUE the location will be estimated as the mean vector and if it is a numeric
+  vector it will be computed wrt to the given vector.}
+  \item{eps}{convergence tolerance, which means that the algorithm stops when the Frobenius norm of the gradient is smaller than eps.}
   \item{maxiter}{maximum number of iterations.}
 }
 
 \details{
-The estimate is based on the new fast algorithm described in Duembgen et al.~(2014).
+The estimate is based on the new fast algorithm described in Duembgen et al. (2014).
 Note that Tyler's shape matrix is standardized such that it has determinant 1.
 
 The function does not check if there are observations equal to the mean (if \code{location=TRUE}), to the provided location vector or to the origin (if \code{location=FALSE}).
 In these cases the function will fail.
 
-In case \code{maxiter} is reached before convergence, the estimate at that iteration is returned and a warning given.
+In case \code{maxiter} is reached before convergence, the estimate at that iteration is returned and a warning is given.
 }
 \value{
   A list containing:
@@ -33,7 +34,7 @@ In case \code{maxiter} is reached before convergence, the estimate at that itera
 \references{
 \cite{Tyler, D.E. (1987), A distribution-free M-estimator of scatter, \emph{Annals of Statistics}, \bold{15},  234--251. } 
 
-\cite{Duembgen, L., Nordhausen, K. and Schumacher, H. (2014),  New algorithms for M-estimation of multivariate location and scatter, preprint available as	arXiv:1312.6489.}
+\cite{Duembgen, L., Nordhausen, K. and Schuhmacher, H. (2014),  New algorithms for M-estimation of multivariate location and scatter, preprint available as	arXiv:1312.6489.}
 }
 \author{
 Lutz Duembgen and Klaus Nordhausen

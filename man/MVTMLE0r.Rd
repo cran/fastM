@@ -23,7 +23,7 @@ MVTMLE0r_CG(X, nu = 0, delta = 1e-06, steps = FALSE)
 \arguments{
   \item{X}{numeric data matrix or dataframe. Missing values are not allowed.}
   \item{nu}{assumed degrees of freedom of the t-distribution. Must be 0 or larger. Default is '0' which corresponds to Tyler's shape matrix.}
-  \item{delta}{convergence tolerance.}
+  \item{delta}{convergence tolerance, which means that the algorithms stop when the Frobenius norm of the gradient is smaller than delta.}
   \item{prewhitened}{logical. Is the data prewhitened or not.}
   \item{steps}{logial. If TRUE intermediate results are printed on the console.}
 }
@@ -31,7 +31,7 @@ MVTMLE0r_CG(X, nu = 0, delta = 1e-06, steps = FALSE)
 All functions are implemented in R and their purpose is only for demonstration of the differences of the different algorithms.
 The function \code{MVTMLE0r} uses the recommended partial Newton approach as implemented also in (\code{\link{MVTMLE}} and \code{\link{TYLERshape}}).
 \code{MVTMLE0r_FP} and \code{MVTMLE0r_FP0} are fixed-point algorithms where \code{MVTMLE0r_FP} iterates the fixed point equation with
-'iterative whitening' of the data. The function \code{MVTMLE0r_G} uses a gradiant approach and \code{MVTMLE0r_CG} a conjugate gradiant approach.
+'iterative whitening' of the data. The function \code{MVTMLE0r_G} uses a gradient approach and \code{MVTMLE0r_CG} a conjugate gradient approach.
 Note that \code{MVTMLE0r_CG} does not check if the 'next' step is really an improvement and that all functions compute the scatter wrt to the origin. 
 
 All functions have a hard coded maximum number of iterations of 1000. If that is reached the functions returns the final estimate, however without a warning.
@@ -46,7 +46,7 @@ For general purposes we recommend the functions \code{\link{MVTMLE}} and \code{\
   \item{iter}{Number of iterations of the algorithm.}
 }
 \references{
-\cite{Duembgen, L., Nordhausen, K. and Schumacher, H. (2014),  New algorithms for M-estimation of multivariate location and scatter, preprint available as arXiv:1312.6489.}
+\cite{Duembgen, L., Nordhausen, K. and Schuhmacher, H. (2014),  New algorithms for M-estimation of multivariate location and scatter, preprint available as arXiv:1312.6489.}
 }
 \author{
 Lutz Duembgen and Klaus Nordhausen
