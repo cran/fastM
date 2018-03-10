@@ -25,7 +25,7 @@ mat SqrtS(mat S){
 // [[Rcpp::export]]
 
 
-SEXP MVTMLE0(SEXP x, SEXP nu, SEXP prewhitened, SEXP delta, SEXP maxiter)
+SEXP cMVTMLE0(SEXP x, SEXP nu, SEXP prewhitened, SEXP delta, SEXP maxiter)
   {  
     mat X = as<arma::mat>(x); 
     double NU = as<double>(nu);
@@ -374,7 +374,7 @@ SEXP MVTMLEsymm(SEXP x, SEXP nu, SEXP delta, SEXP maxiter, SEXP nmax)
 
 // [[Rcpp::depends(RcppArmadillo)]]
 // [[Rcpp::export]]
-SEXP MVTMLEsymm1(SEXP x, SEXP nu, SEXP delta, SEXP maxiter)
+SEXP cMVTMLEsymm1(SEXP x, SEXP nu, SEXP delta, SEXP maxiter)
   {  
     mat X = as<arma::mat>(x);
     double NU = as<double>(nu);
@@ -472,7 +472,7 @@ SEXP MVTMLEsymm1(SEXP x, SEXP nu, SEXP delta, SEXP maxiter)
 
 // [[Rcpp::depends(RcppArmadillo)]]
 // [[Rcpp::export]]
-SEXP MVTMLEsymm2(SEXP x, SEXP nu, SEXP delta, SEXP maxiter)
+SEXP cMVTMLEsymm2(SEXP x, SEXP nu, SEXP delta, SEXP maxiter)
   {  
     mat X = as<arma::mat>(x);
     double NU = as<double>(nu);

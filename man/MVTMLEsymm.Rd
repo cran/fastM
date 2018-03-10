@@ -36,7 +36,7 @@ In case \code{maxiter} is reached before convergence, the estimate at that itera
   \item{iter}{Number of iterations of the algorithm.}
 }
 \references{
-\cite{Duembgen, L., Nordhausen, K. and Schuhmacher, H. (2014),  New algorithms for M-estimation of multivariate location and scatter, preprint available as arXiv:1312.6489.}
+\cite{Duembgen, L., Nordhausen, K. and Schuhmacher, H. (2016),  New algorithms for M-estimation of multivariate location and scatter, \emph{Journal of Multivariate Analysis}, \bold{144},  200--217. \doi{10.1016/j.jmva.2015.11.009}}
 }
 \author{
 Lutz Duembgen and Klaus Nordhausen

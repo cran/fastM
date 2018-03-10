@@ -1,5 +1,7 @@
-importFrom(Rcpp, evalCpp)
+importFrom("Rcpp", evalCpp)
+importFrom("stats", cov)
+importFrom("utils", combn)
 
 export(MVTMLE, MVTMLE0r, MVTMLE0r_FP, MVTMLE0r_FP0, MVTMLE0r_G, MVTMLE0r_CG, MVTMLEsymm,  TYLERshape, DUEMBGENshape)
 
-useDynLib(fastM)
+useDynLib(fastM, .registration = TRUE)

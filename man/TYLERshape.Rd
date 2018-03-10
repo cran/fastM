@@ -17,7 +17,7 @@
 }
 
 \details{
-The estimate is based on the new fast algorithm described in Duembgen et al. (2014).
+The estimate is based on the new fast algorithm described in Duembgen et al. (2016).
 Note that Tyler's shape matrix is standardized such that it has determinant 1.
 
 The function does not check if there are observations equal to the mean (if \code{location=TRUE}), to the provided location vector or to the origin (if \code{location=FALSE}).
@@ -34,7 +34,7 @@ In case \code{maxiter} is reached before convergence, the estimate at that itera
 \references{
 \cite{Tyler, D.E. (1987), A distribution-free M-estimator of scatter, \emph{Annals of Statistics}, \bold{15},  234--251. } 
 
-\cite{Duembgen, L., Nordhausen, K. and Schuhmacher, H. (2014),  New algorithms for M-estimation of multivariate location and scatter, preprint available as	arXiv:1312.6489.}
+\cite{Duembgen, L., Nordhausen, K. and Schuhmacher, H. (2016),  New algorithms for M-estimation of multivariate location and scatter, \emph{Journal of Multivariate Analysis}, \bold{144},  200--217. \doi{10.1016/j.jmva.2015.11.009}}
 }
 \author{
 Lutz Duembgen and Klaus Nordhausen

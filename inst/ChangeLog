@@ -1,7 +1,12 @@
 LOG of the CHANGES in the package fastM
 
-Version 0.0-1:
-* First build
+Version 0.0-3:
+* Improving help files
+* Changing maintainer email address
+* Taking care of same namespace issues. Needed for that to change the name of some internal C functions.
 
 Version 0.0-2:
 * Improving help files
+
+Version 0.0-1:
+* First build

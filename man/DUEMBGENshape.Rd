@@ -20,7 +20,7 @@ and used in the algorithm. If n is larger, then the algorithm avoids storing all
   \item{perm}{logical. If TRUE the rows of \code{X} will be randomly permuted before starting the computations. See details.}
 }
 \details{
-The estimate is based on the new fast algorithm described in Duembgen et al. (2014).
+The estimate is based on the new fast algorithm described in Duembgen et al. (2016).
 Note that Duembgen's shape matrix is standardized such that it has determinant 1.
 
 The function does not check if there are several identical observations. In that case the function will fail.
@@ -39,7 +39,8 @@ In case \code{maxiter} is reached before convergence, the estimate at that itera
 \references{
 \cite{Duembgen, L. (1998), On Tyler's M-functional of scatter in high dimension, \emph{Annals of Institute of Statistical Mathematics}, \bold{50},  471--491. }
 
-\cite{Duembgen, L., Nordhausen, K. and Schuhmacher, H. (2014),  New algorithms for M-estimation of multivariate location and scatter, preprint available as	arXiv:1312.6489.}
+\cite{Duembgen, L., Nordhausen, K. and Schuhmacher, H. (2016),  New algorithms for M-estimation of multivariate location and scatter, \emph{Journal of Multivariate Analysis}, \bold{144},  200--217. \doi{10.1016/j.jmva.2015.11.009}}
+
 }
 \author{
 Lutz Duembgen and Klaus Nordhausen
