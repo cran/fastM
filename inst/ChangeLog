@@ -1,5 +1,8 @@
 LOG of the CHANGES in the package fastM
 
+Version 0.0-4:
+* Making the fastM-package file CRAN conform
+
 Version 0.0-3:
 * Improving help files
 * Changing maintainer email address

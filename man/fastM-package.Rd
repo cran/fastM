@@ -3,19 +3,12 @@
 \alias{fastM}
 \docType{package}
 \title{
-Fast Computation of Multivariate M-Estimators
+\packageTitle{fastM}
 }
 \description{
-The package implements the new algorithm for fast computation of M-scatter matrices using a partial Newton-Raphson procedure for several estimators. 
+\packageDescription{fastM} 
 }
 \details{
-\tabular{ll}{
-Package: \tab fastM\cr
-Type: \tab Package\cr
-Version: \tab 0.3\cr
-Date: \tab 2018-03-10\cr
-License: \tab GPL (>= 2)
-}
 Multivariate M-estimators are usually computed using a fixed-point algorithm. As shown in Duembgen et al. (2016) 
 a partial Newton-Raphson procedure applied to the second order Taylor expansion of the target function can make the computation considerably faster.
 We implement this new algorithm for the multivariate M-estimator of location and scatter using weights coming from the multivariate t-distribution
@@ -25,9 +18,9 @@ For the symmetrized M-estimators we work with incomplete U-statistics to acceler
 
 
 \author{
-Lutz Duembgen, Klaus Nordhausen, Heike Schuhmacher
+\packageAuthor{fastM}
 
-Maintainer: Klaus Nordhausen <klaus.nordhausen@tuwien.ac.at> 
+Maintainer: \packageMaintainer{fastM}
 
 }
 \references{
@@ -42,4 +35,4 @@ Maintainer: Klaus Nordhausen <klaus.nordhausen@tuwien.ac.at>
 }
 
 \keyword{package}
-\keyword{multivariate}
+

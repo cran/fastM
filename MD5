@@ -1,4 +1,4 @@
-59fa4e80a3910a49048cd0f3d7a8aeb4 *DESCRIPTION
+103c4cbe56bcf6587ba5f2980b7fa28a *DESCRIPTION
 d737f4bd39dccd5b4906cbe4e6fd4643 *NAMESPACE
 0a3836f37772c618d6ff3bea4b70268c *R/Duembgen.R
 de9f2ae62cfdaf2fe1b557db9aff0de3 *R/MVTMLE0wrap.R
@@ -12,14 +12,14 @@ a71f2e77912ec2ed9f1aca993d68b536 *R/MVTMLEsymm2wrap.R
 2a2709d3f74d564ad12faa17547c2e38 *R/TYLERsymm1wrap.R
 747a05ed8acc276920f65d6adee9e32c *R/TYLERsymm2wrap.R
 29867a32cd93313bb8f143613cbf50e3 *R/TYLERwrap.R
-be52399cbee567a49b8b7ba6f134c85e *build/partial.rdb
-b41ead919f67830a98e297637dd00641 *inst/ChangeLog
+1d444e5ecaf64e36113a979b09afff3a *build/partial.rdb
+68c11a483a5d6402e6f76daa0eb1996e *inst/ChangeLog
 4aaf1ae7756d0603381f84c5520ddea6 *man/DUEMBGENshape.Rd
 2eae2bde308394d28eebcf6c399e0059 *man/MVTMLE.Rd
 8e01b7336964fcd0e32807fb414233c6 *man/MVTMLE0r.Rd
 de13410cbd7848e44deb9519f7f98dc4 *man/MVTMLEsymm.Rd
 9b661804de744c20ea2c0216b3b3c8ce *man/TYLERshape.Rd
-7b27761c686db38cf9375277defb4ebf *man/fastM-package.Rd
+77fb928377516bd39c8442ed2a34b5a7 *man/fastM-package.Rd
 de858539ef9bddf24e2c32c88cd606e8 *src/MVTMLE.cpp
 26af390f2fbbc4a2a0ee9b02a41d7158 *src/MVTMLE.h
 95a5e0dc5dbdec9c251c142cb4cad286 *src/Makevars
