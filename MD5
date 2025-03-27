@@ -1,4 +1,4 @@
-103c4cbe56bcf6587ba5f2980b7fa28a *DESCRIPTION
+fe85a852aebcceaca612037073b6fae4 *DESCRIPTION
 d737f4bd39dccd5b4906cbe4e6fd4643 *NAMESPACE
 0a3836f37772c618d6ff3bea4b70268c *R/Duembgen.R
 de9f2ae62cfdaf2fe1b557db9aff0de3 *R/MVTMLE0wrap.R
@@ -12,8 +12,8 @@ a71f2e77912ec2ed9f1aca993d68b536 *R/MVTMLEsymm2wrap.R
 2a2709d3f74d564ad12faa17547c2e38 *R/TYLERsymm1wrap.R
 747a05ed8acc276920f65d6adee9e32c *R/TYLERsymm2wrap.R
 29867a32cd93313bb8f143613cbf50e3 *R/TYLERwrap.R
-1d444e5ecaf64e36113a979b09afff3a *build/partial.rdb
-68c11a483a5d6402e6f76daa0eb1996e *inst/ChangeLog
+87b4a8ba2176d98e3a38525e31e50332 *build/partial.rdb
+11cc8bb313cf834fa4a1f72b5a1945be *inst/ChangeLog
 4aaf1ae7756d0603381f84c5520ddea6 *man/DUEMBGENshape.Rd
 2eae2bde308394d28eebcf6c399e0059 *man/MVTMLE.Rd
 8e01b7336964fcd0e32807fb414233c6 *man/MVTMLE0r.Rd
